@@ -9,6 +9,19 @@ It also provides a reusable agent skill for the core epithelial–cellular modul
 cell-subtype analysis, cellular-module discovery, Epi-CM association testing,
 and optional spatial mapping and validation.
 
+The repository additionally includes task-level workflow code generated,
+consolidated, documented, and technically audited by an AI coding agent while
+following the reusable Epi-CM skill. These agent-assisted implementations are
+included to make the executed workflow tasks transparent and reusable. They
+include `kirc-minimax3` for ccRCC, `crc-codex` for colorectal cancer, and
+`brca-codex` for breast cancer. The researchers contributed only the core
+scientific framework and analysis objectives. For these agent-assisted
+implementations, the AI coding agent independently selected the task-level
+computational parameters and implementation details by default, following the
+reusable skill. Users may explicitly specify or override parameters when
+needed. The resulting code and outputs remain subject to researcher review
+before scientific interpretation.
+
 The manuscript and its biological conclusions focus on clear cell renal cell
 carcinoma (ccRCC). The reusable workflow has additionally been technically
 exercised on breast cancer (BRCA) and colorectal cancer (CRC) datasets to assess
